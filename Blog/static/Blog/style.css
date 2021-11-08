@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(231, 229, 229);
+    
+}
+.body-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    
+}
+
+.blog-posts{
+    flex-basis: 30%;
+    text-align: center;
+    background: white;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:991px){
+   
+}
